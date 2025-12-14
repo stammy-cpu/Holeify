@@ -90,7 +90,7 @@ export function Hero() {
                    animate={{ y: 0, opacity: 1 }}
                    exit={{ y: -50, opacity: 0 }}
                    transition={{ duration: 0.5, ease: "circOut" }}
-                   className="text-[#E57E51] inline-block"
+                   className="text-primary inline-block"
                  >
                    {keywords[index]}
                  </motion.div>
@@ -189,7 +189,7 @@ export function Hero() {
 
                <Button 
                   onClick={handleSearch}
-                  className="bg-[#E57E51] hover:bg-[#d66d40] text-white h-12 px-8 rounded-xl font-bold text-base shadow-lg shadow-orange-200/50 mt-2 md:mt-0"
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground h-12 px-8 rounded-xl font-bold text-base shadow-lg shadow-primary/30 mt-2 md:mt-0"
                >
                   Search
                </Button>
